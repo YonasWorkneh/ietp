@@ -8,7 +8,7 @@ export default function About() {
       <section className="relative h-[400px] flex items-center">
         <div className="absolute inset-0 z-0">
           <img
-            src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?auto=format&fit=crop&q=80"
+            src="/src/assets/ietp.jpg"
             alt="Team working"
             className="w-full h-full object-cover brightness-50"
           />
@@ -31,7 +31,9 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div>
               <Target className="h-12 w-12 text-indigo-600 mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Our Mission</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-secondary">
+                Our Mission
+              </h3>
               <p className="text-gray-600">
                 To create innovative solutions that empower visually impaired
                 individuals to navigate urban environments safely and
@@ -41,7 +43,9 @@ export default function About() {
 
             <div>
               <Users className="h-12 w-12 text-indigo-600 mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Our Team</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-secondary">
+                Our Team
+              </h3>
               <p className="text-gray-600">
                 A dedicated group of engineers, accessibility experts, and urban
                 planners working together to create positive change.
@@ -50,7 +54,9 @@ export default function About() {
 
             <div>
               <Award className="h-12 w-12 text-indigo-600 mb-6" />
-              <h3 className="text-2xl font-semibold mb-4">Our Impact</h3>
+              <h3 className="text-2xl font-semibold mb-4 font-secondary">
+                Our Impact
+              </h3>
               <p className="text-gray-600">
                 Successfully implemented in 50+ cities, helping thousands of
                 visually impaired pedestrians navigate safely every day.
@@ -72,18 +78,20 @@ export default function About() {
               />
             </div>
             <div>
-              <h2 className="text-3xl font-bold mb-6">Our Story</h2>
+              <h2 className="text-3xl font-bold mb-6 font-secondary">
+                Our Story
+              </h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2020, SafeCross emerged from a simple observation:
+                Founded in 2024, SafeCross emerged from a simple observation:
                 traditional traffic systems weren't serving everyone equally.
-                Our founders, inspired by personal experiences with visually
-                impaired family members, set out to create a solution that would
-                make urban navigation more accessible.
+                We, inspired by personal experiences with visually impaired
+                family members and relatives, set out to create a solution that
+                would make urban navigation more accessible.
               </p>
               <p className="text-gray-600">
                 Today, we're proud to be at the forefront of smart city
-                technology, combining AI, IoT, and universal design principles
-                to create safer streets for everyone.
+                technology, combining IoT, and universal design principles to
+                create safer streets for everyone.
               </p>
             </div>
           </div>
