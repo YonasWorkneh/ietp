@@ -5,13 +5,14 @@ export default function About() {
   return (
     <div className="pt-16">
       {/* Hero Section */}
-      <section className="relative h-[400px] flex items-center">
-        <div className="absolute inset-0 z-0">
+      <section className="relative h-[400px] flex items-center mt-[-.3rem]">
+        <div className="absolute inset-0 z-0 ">
           <img
-            src="/src/assets/ietp.jpg"
+            src="/src/assets/images/ietp.jpg"
             alt="Team working"
-            className="w-full h-full object-cover brightness-50"
+            className="w-full h-full  brightness-50 object-cover object-center "
           />
+          <div className="absolute inset-0 bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 opacity-50"></div>
         </div>
 
         <div className="relative z-10 max-w-7xl mx-auto px-6 text-white">
@@ -47,8 +48,9 @@ export default function About() {
                 Our Team
               </h3>
               <p className="text-gray-600">
-                A dedicated group of engineers, accessibility experts, and urban
-                planners working together to create positive change.
+                A dedicated group of engineers, Software, Electrical, Mechanical
+                Civil and Architectural working together to create positive
+                change.
               </p>
             </div>
 
@@ -58,8 +60,8 @@ export default function About() {
                 Our Impact
               </h3>
               <p className="text-gray-600">
-                Successfully implemented in 50+ cities, helping thousands of
-                visually impaired pedestrians navigate safely every day.
+                Able to create the potential to assist thousands of visually
+                impaired pedestrians in navigating safely each day.
               </p>
             </div>
           </div>
@@ -72,7 +74,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="https://images.unsplash.com/photo-1573497019940-1c28c88b4f3e?auto=format&fit=crop&q=80"
+                src="/src/assets/images/logo.png"
                 alt="Our story"
                 className="rounded-lg shadow-lg"
               />
@@ -82,16 +84,18 @@ export default function About() {
                 Our Story
               </h2>
               <p className="text-gray-600 mb-6">
-                Founded in 2024, SafeCross emerged from a simple observation:
-                traditional traffic systems weren't serving everyone equally.
-                We, inspired by personal experiences with visually impaired
-                family members and relatives, set out to create a solution that
-                would make urban navigation more accessible.
+                Founded in 2024 through the vision of an integrated engineering
+                team, SafeCross was born from a simple yet profound observation:
+                traditional traffic systems often fall short of inclusivity.
+                Motivated by personal experiences with visually impaired family
+                members, we embarked on a mission to revolutionize urban
+                navigation with accessibility at its core.
               </p>
               <p className="text-gray-600">
-                Today, we're proud to be at the forefront of smart city
-                technology, combining IoT, and universal design principles to
-                create safer streets for everyone.
+                Today, SafeCross stands at the forefront of smart city
+                innovation, seamlessly blending IoT technology and universal
+                design principles to create safer, more inclusive streets for
+                everyone.
               </p>
             </div>
           </div>

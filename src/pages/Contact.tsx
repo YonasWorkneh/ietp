@@ -27,13 +27,13 @@ export default function Contact() {
   return (
     <div className="pt-16">
       {/* Contact Header */}
-      <section className="bg-indigo-900 text-white py-20">
+      <section className="bg-indigo-900 text-white py-20 mt-[-.3rem]">
         <div className="max-w-7xl mx-auto px-6 text-center">
           <h1 className="text-4xl font-semibold mb-6 font-secondary">
             Get in Touch
           </h1>
           <p className="text-l max-w-2xl mx-auto">
-            Have questions about implementing SafeCross in your city? We're here
+            Have questions about implementing SafeCross in your city ? We're here
             to help.
           </p>
         </div>

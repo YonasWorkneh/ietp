@@ -47,8 +47,11 @@ export default function Home() {
                 Smart Detection
               </h3>
               <p className="text-gray-600">
-                Advanced sensors detect visually impaired pedestrians and adjust
-                traffic signals automatically.
+                Advanced sensors detect visually impaired pedestrians and
+                automatically adjust traffic signals, providing a 20-second
+                interval for vehicles to halt. The system also offers
+                sound-guided instructions to assist visually impaired
+                individuals seamlessly.
               </p>
             </div>
 
