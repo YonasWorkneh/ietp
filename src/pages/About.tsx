@@ -8,7 +8,7 @@ export default function About() {
       <section className="relative h-[400px] flex items-center mt-[-.3rem]">
         <div className="absolute inset-0 z-0 ">
           <img
-            src="/src/assets/images/ietp.jpg"
+            src="https://utfs.io/f/i6Pi14ucLDbfBLad6w9ejpPWHL4JUhyz0iuNQnw65ldDFt9f"
             alt="Team working"
             className="w-full h-full  brightness-50 object-cover object-center "
           />
@@ -74,7 +74,7 @@ export default function About() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
             <div>
               <img
-                src="/src/assets/images/logo.png"
+                src="https://utfs.io/f/i6Pi14ucLDbfOWjhvBQ2dRc61FUGhjNg5qQDiXI0sx3m9VEL"
                 alt="Our story"
                 className="rounded-lg shadow-lg"
               />
