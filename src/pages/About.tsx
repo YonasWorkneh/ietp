@@ -85,7 +85,11 @@ export default function About() {
               </h2>
               <p className="text-gray-600 mb-6">
                 Founded in 2024 through the vision of an integrated engineering
-                team, SafeCross was born from a simple yet profound observation:
+                team at{" "}
+                <abbr title="Addis Ababa Science and Technology University ">
+                  AASTU
+                </abbr>
+                , SafeCross was born from a simple yet profound observation:
                 traditional traffic systems often fall short of inclusivity.
                 Motivated by personal experiences with visually impaired family
                 members, we embarked on a mission to revolutionize urban
