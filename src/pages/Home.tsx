@@ -1,5 +1,6 @@
 import React from "react";
 import { ArrowRight, Shield, Volume2, Map } from "lucide-react";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -22,12 +23,12 @@ export default function Home() {
             systems that make crossing streets safer and more accessible for the
             visually impaired community.
           </p>
-          <a
-            href="/about"
+          <Link
+            to={"/about"}
             className="inline-flex items-center bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition"
           >
             Learn More <ArrowRight className="ml-2 h-5 w-5" />
-          </a>
+          </Link>
         </div>
       </section>
 
